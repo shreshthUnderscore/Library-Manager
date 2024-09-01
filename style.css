@@ -1,0 +1,27 @@
+*
+{
+    margin: 0px;
+    border: 0px;
+}
+
+body
+{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 20% 80%;
+}
+
+.navbar
+{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr repeat(3, 0.2fr);
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar > button
+{
+    height: 4rem;
+}
